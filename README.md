@@ -21,6 +21,8 @@ Repositório utilizado para estudar o curso da Alura: React com JavaScript: lida
 - CSS
 - JS
 - React
+- CSS Modules
+- Pré Processador SASS
 
 ## Autor
 
