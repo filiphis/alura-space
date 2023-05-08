@@ -25,11 +25,15 @@
 - [ ] Importe um css normalize no estilosGlobais.scss.
 - [ ] Estilize o scroll.
 - [ ] Importar as fontes noestilosGlobais.scss utilizando @font-face.
-- [ ] Criar as variaves de estilos (fonte e cores) no arquivo \_variaveis.scss.
+- [ ] Criar as variaves de estilos (fonte e cores) no arquivo **\_variaveis.scss**.
 
 ## Aula04
 
-- [ ]
+- [ ] Criar o componente Galeria.
+- [ ] Criar o componente Tags, resposavel por conter as tags da galeria
+- [ ] Criar um arquivo **fotos.json** para exibir os itens na galeria. Neste caso as imagens ficarão na pasta public.
+- [ ] Criar o componente Cards para listar os itens.
+- [ ] Criar o componente Card.
 
 ## Aula05
 
