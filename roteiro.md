@@ -34,12 +34,8 @@
 - [ ] Criar um arquivo **fotos.json** para exibir os itens na galeria. Neste caso as imagens ficarão na pasta public.
 - [ ] Criar o componente Cards para listar os itens.
 - [ ] Criar o componente Card.
-
-## Aula04-pt2
-
 - [ ] Criar o componente aside Populares e seus estilos.
 - [ ] Criar o arquivo **fotos-populares.json** para armazenar o caminho das fotos, o alt e o id.
-- [ ]
 
 ## Aula05
 
