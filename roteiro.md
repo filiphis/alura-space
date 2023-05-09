@@ -31,6 +31,25 @@
 
 - [ ]
 
+## Aula04-pt2
+
+- [ ] Criar o componente aside Populares e seus estilos.
+- [ ] Criar o arquivo **fotos-populares.json** para armazenar o caminho das fotos, o alt e o id.
+- [ ]
+
 ## Aula05
 
-- [ ]
+- [ ] Criar o arquivo **jsconfig.json** com o código abaixo para definir import com caminhos absolutos:
+
+```json
+{
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": ["src"]
+}
+```
+
+- [ ] Criar a funcionalidade para filtrar as fotos por tags.
+- [ ] Utilizar um Set para armazenar o resultado de um map, sendo assim, não será armazenado valores repetidos.
+- [ ] Criar a tag todas informando o estado inicial das fotos.
