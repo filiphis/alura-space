@@ -1,4 +1,5 @@
 import PaginaInicial from "paginas/PaginaInicial";
+import estilosGlobais from "styles/estilosGlobais.scss";
 
 function App() {
   return (

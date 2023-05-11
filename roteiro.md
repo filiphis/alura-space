@@ -17,13 +17,13 @@
 
 ## Aula02
 
-- [ ] Criar o componente Menu.
-- [ ] Criar o componente Banner.
+- [x] Criar o componente Menu.
+- [x] Criar o componente Banner.
 
 ## Aula03
 
 - [x] Importe um css normalize no estilosGlobais.scss.
-- [ ] Estilize o scroll.
+- [x] Estilize o scroll.
 - [ ] Importar as fontes noestilosGlobais.scss utilizando @font-face.
 - [ ] Criar as variaves de estilos (fonte e cores) no arquivo **\_variaveis.scss**.
 

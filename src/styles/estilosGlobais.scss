@@ -1,5 +1,5 @@
 @import-normalize;
-
+@import "./variaveis";
 *,
 *::after,
 *::before {
@@ -17,10 +17,24 @@ body,
     #154580 96.76%
   );
   min-height: 100vh;
+  color: $text-color;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #154580;
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #041833;
 }
 
 .container {
-  //   min-height: 100vh;
+  // min-height: 100vh;
 
   display: grid;
   grid-template-columns: 1fr min(1440px, 100%) 1fr;
