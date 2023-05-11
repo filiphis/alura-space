@@ -17,7 +17,8 @@ body,
     #154580 96.76%
   );
   min-height: 100vh;
-  color: $text-color;
+  color: $cor-do-texto;
+  font-family: $fonte-normal;
 }
 
 body::-webkit-scrollbar {
@@ -48,4 +49,20 @@ body::-webkit-scrollbar-track {
 
 .full-width {
   grid-column: 1/-1;
+}
+
+@font-face {
+  font-family: "GandhiSansRegular";
+  src: local("GandhiSansRegular"),
+    url("/assets/fontes/GandhiSans-Regular.otf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GandhiSansBold";
+  src: local("GandhiSansBold"),
+    url("/assets/fontes/GandhiSans-Bold.otf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
 }

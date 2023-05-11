@@ -24,8 +24,8 @@
 
 - [x] Importe um css normalize no estilosGlobais.scss.
 - [x] Estilize o scroll.
-- [ ] Importar as fontes noestilosGlobais.scss utilizando @font-face.
-- [ ] Criar as variaves de estilos (fonte e cores) no arquivo **\_variaveis.scss**.
+- [x] Importar as fontes noestilosGlobais.scss utilizando @font-face.
+- [x] Criar as variaves de estilos (fonte e cores) no arquivo **\_variaveis.scss**.
 
 ## Aula04
 
