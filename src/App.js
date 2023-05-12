@@ -3,7 +3,7 @@ import estilosGlobais from "styles/estilosGlobais.scss";
 
 function App() {
   return (
-    <div className="container">
+    <div className={`container ${estilosGlobais}`}>
       <PaginaInicial />
     </div>
   );
