@@ -3,9 +3,9 @@
 
 # Alura Space
 
-<!-- > **_Status:_** Finalizado :heavy_check_mark: -->
+> **_Status:_** Finalizado :heavy_check_mark:
 
-> **_Status:_** Em andamento :construction:
+<!-- > **_Status:_** Em andamento :construction: -->
 
 ## Descrição
 
