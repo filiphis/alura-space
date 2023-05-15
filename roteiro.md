@@ -29,11 +29,11 @@
 
 ## Aula04
 
-- [ ] Criar o componente Galeria.
-- [ ] Criar o componente Tags, resposavel por conter as tags da galeria
-- [ ] Criar um arquivo **fotos.json** para exibir os itens na galeria. Neste caso as imagens ficarão na pasta public.
-- [ ] Criar o componente Cards para listar os itens.
-- [ ] Criar o componente Card.
+- [x] Criar o componente Galeria.
+- [x] Criar o componente Tags, resposavel por conter as tags da galeria
+- [x] Criar um arquivo **fotos.json** para exibir os itens na galeria. Neste caso as imagens ficarão na pasta public.
+- [x] Criar o componente Cards para listar os itens.
+- [x] Criar o componente Card.
 - [ ] Criar o componente aside Populares e seus estilos.
 - [ ] Criar o arquivo **fotos-populares.json** para armazenar o caminho das fotos, o alt e o id.
 
@@ -50,6 +50,6 @@
 }
 ```
 
-- [ ] Criar a funcionalidade para filtrar as fotos por tags.
-- [ ] Utilizar um Set para armazenar o resultado de um map, sendo assim, não será armazenado valores repetidos.
-- [ ] Criar a tag todas informando o estado inicial das fotos.
+- [x] Criar a funcionalidade para filtrar as fotos por tags.
+- [x] Utilizar um Set para armazenar o resultado de um map, sendo assim, não será armazenado valores repetidos.
+- [x] Criar a tag todas informando o estado inicial das fotos.

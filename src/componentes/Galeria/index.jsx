@@ -1,19 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./styles.module.scss";
+import Tags from "componentes/Tags";
+import Cards from "componentes/Cards";
+import ApiFotos from "./fotos.json";
+
+const tags = [...new Set(ApiFotos.map((item) => item.tag))];
 
 export default function Galeria() {
+  const [fotos, setFotos] = useState(ApiFotos);
+
+  function filtraGaleria(tag) {
+    const fotosFiltradas = ApiFotos.filter((fotos) => fotos.tag === tag);
+    setFotos(fotosFiltradas);
+  }
   return (
     <div className={styles.galeria}>
       <h2 className={styles.galeria__title}>Navegue pela galeria</h2>
-      <div className={styles.galeria__tags__container}>
-        <span>Busque por tags:</span>
-        <ul className={styles.tags__list}>
-          <li className={styles.tags__item}>Es</li>
-          <li className={styles.tags__item}>Est</li>
-          <li className={styles.tags__item}>Est</li>
-          <li className={styles.tags__item}>Estre</li>
-        </ul>
-      </div>
+      <Tags tags={tags} onFiltraGaleria={filtraGaleria} setFotos={setFotos} />
+      <Cards fotos={fotos} />
     </div>
   );
 }

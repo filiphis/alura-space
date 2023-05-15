@@ -1,0 +1,36 @@
+@import "/src/styles/variaveis";
+
+.card {
+  width: 288px;
+  height: 270px;
+  border-radius: 0px 0px 20px 20px;
+  background-color: $azul-rodape;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+.card__imagem {
+  width: 288px;
+  height: 206px;
+  line-height: 0;
+  object-fit: cover;
+}
+
+.card__description {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background-color: $azul-rodape;
+  margin-top: -12px;
+  padding: 14px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.card__title {
+  font-size: 1rem;
+  font-family: $fonte-bold;
+  font-weight: bold;
+}
+
+.card__creditos {
+  font-size: 0.8rem;
+}

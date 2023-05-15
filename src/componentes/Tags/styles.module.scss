@@ -1,0 +1,28 @@
+@import "/src/styles/variaveis";
+
+.galeria__tags__container {
+  margin-top: 36px;
+  color: $cor-do-texto;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tags__list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: center;
+
+  gap: 1.5rem;
+  // flex: 1;
+  // justify-content: flex-end;
+}
+
+.tags__item {
+  padding: 10px 5px;
+  border-radius: 10px;
+  background-color: $tag-color;
+  flex-basis: 1;
+  cursor: pointer;
+}
