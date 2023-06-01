@@ -3,7 +3,7 @@
 <!-- :heavy_check_mark: -->
 <!-- :construction: -->
 
-<h1> Alura Space </h1>
+# Alura Space
 
 > **_Status:_** Finalizado :heavy_check_mark:
 
