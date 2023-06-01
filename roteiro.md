@@ -2,7 +2,7 @@
 
 ## Aula01
 
-- [x] Acessar o layout no Figma: https://www.figma.com/file/Y1W8HJHKqlUdDFeWi8e4cz/Alura-Space-%7C-React%3A-arquivos-est%C3%A1ticos?node-id=89-4
+- [x] Acessar o layout no Figma: https://www.figma.com/file/q5gVD0nRChoaf05iTE3xTT/Ol%C3%A1%2C-Mundo!---Projeto-React%3A-router-(Copy)?type=design&node-id=38-716&t=Q3YBqZMzfo3FYGox-0
 - [x] Baixar os arquivos do curso.
 - [x] Organizar arquivos e pastas.
 - [x] Criar uma pasta para salvar as páginas.
