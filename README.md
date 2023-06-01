@@ -1,7 +1,9 @@
+<!-- #title Alura Space -->
+<!-- #technologies: ['React','SASS']} -->
 <!-- :heavy_check_mark: -->
 <!-- :construction: -->
 
-# Alura Space
+<h1> Alura Space </h1>
 
 > **_Status:_** Finalizado :heavy_check_mark:
 
